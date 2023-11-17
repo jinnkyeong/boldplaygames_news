@@ -1,6 +1,6 @@
 :root {
     /* size */
-    --font-size-md: 0.9rem;
+    --font-size-md: 
 
     /* color */
     --color-grey-light: #A9A9A9;
@@ -28,11 +28,14 @@
     left: 10%;
     display: flex;
     flex-direction: column;
+    font-family: 'Segoe UI', 'New Gulim', 'Malgun Gothic', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .sub-item{
     display: flex;
     flex-direction: row;
+    margin-bottom: 0.5rem;
+
 }
 .sub-label{
     flex-basis: 25%;
@@ -44,7 +47,7 @@
     
 }
 .sub-one{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 .orange{
     color: var(--color-orange)
@@ -53,5 +56,5 @@
     color: var(--color-mint)
 }
 .indent{
-    
+    margin-left: 1rem;
 }
