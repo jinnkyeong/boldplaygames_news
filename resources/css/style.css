@@ -12,36 +12,49 @@
 
 
 .box{
+/* 임시로 */
+    width: 45rem;
+    position: relative;
 
 }
 
 .bgImage{
-
+    width: 45rem;
 }
 .sub-box{
-
+    color: var(--color-grey-light);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    
 }
 .sub-item{
+    display: flex;
+    flex-direction: row;
     
 }
 .sub-label{
+    flex-basis: 30%;
     
 }
 .sub-context{
+    flex-basis: 70%;
     
 }
 .sub-context-child{
     
 }
 .sub-one{
-
+    margin-bottom: 1rem;
 }
 .orange{
-
+    color: var(--color-orange)
 }
 .mint{
-
+    color: var(--color-mint)
 }
 .indent{
-    margin-bottom: 1rem;
+    
 }
