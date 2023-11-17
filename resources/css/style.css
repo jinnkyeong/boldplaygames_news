@@ -1,0 +1,47 @@
+:root {
+    /* size */
+    --font-size-md: 0.9rem;
+
+    /* color */
+    --color-grey-light: #A9A9A9;
+    --color-orange: #FF9130;
+    --color-mint: #45FFCA;
+}
+
+
+
+
+.box{
+
+}
+
+.bgImage{
+
+}
+.sub-box{
+
+}
+.sub-item{
+    
+}
+.sub-label{
+    
+}
+.sub-context{
+    
+}
+.sub-context-child{
+    
+}
+.sub-one{
+
+}
+.orange{
+
+}
+.mint{
+
+}
+.indent{
+    margin-bottom: 1rem;
+}
