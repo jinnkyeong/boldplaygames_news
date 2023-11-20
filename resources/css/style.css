@@ -1,24 +1,30 @@
 :root {
     /* size */
-    --font-size-md: 0.9vw;
+    --font-size-md: 0.75vw;
 
     /* color */
     --color-grey-light: #A9A9A9;
+    --color-grey-dark: #7D7C7C;
     --color-orange: #FF9130;
     --color-mint: #45FFCA;
+    --color-hover: #97FEED;
 }
 
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
 
 
 .box{
-/* 임시로 */
-    width: 45vw;
+/*  1920px 해상도에서 700px */
+    width: 36.4vw;
     position: relative;
 }
 
 .bgImage{
-    width: 45vw;
+    width: 36.4vw;
 }
 
 .sub-box{
@@ -35,20 +41,22 @@
 .sub-item{
     display: flex;
     flex-direction: row;
-    margin-bottom: 0.5vh;
-
+    /* justify-content: flex-s100%art; */
+    margin-bottom: 1vw;
 }
 .sub-label{
-    flex-basis: 25%;
+    flex: 33%;
+    /* flex: 25%; */
 }
 .sub-context{
-    flex-basis: 75%;
+    flex: 67%;
+    /* flex: 75%; */
 }
 .sub-context-child{
     
 }
 .sub-one{
-    margin-bottom: 2.5vh;
+    margin-bottom: 0.45vw;
 }
 .orange{
     color: var(--color-orange)
@@ -56,10 +64,34 @@
 .mint{
     color: var(--color-mint)
 }
+.grey-dark{
+    color: var(--color-grey-dark);
+}
 .indent{
     margin-left: 1vw;
 }
 
+/* 컨테이너 hover 효과 */
+.overlay{
+    width: 36.1vw;
+    height: 10vw;
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+.overlay_test{
+    top: 12.9vw;
+}
+.overlay_ranking{
+    top: 23vw;
+}
+.overlay_event{
+    top: 33.2vw;
+}
+.hover{
+    border: solid var(--color-hover) 0.2vw;
+}
 
 /* @media screen (){
     

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>title</title>
+        <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+    </head>
+
+
+    <body>
+        <!-- <iframe src="http://www.unc.edu/home.html" 
+        frameborder="0"  width="500px" height="300px">
+            <p>현재 사용 중인 브라우저는 iframe 요소를 지원하지 않습니다!</p>
+        </iframe>
+        <div id="divId"></div>
+        -->
+       <img width="690"
+        height="887" 
+        src="https://blackstigma-cdn.s3.ap-northeast-2.amazonaws.com/BlackStigmaNews/NewsRe/News_en-US.png"
+        usemap="#link"
+        -webkit-user-select: none;>  
+        <map name="link">
+            <area class="myarea" shape="rect" coords="0, 250, 700, 443"
+            href="https://store.steampowered.com/news/app/1277530/view/3748743244110883229">
+        
+        
+            <area shape="rect" coords="0, 443, 700, 636"
+            href="https://store.steampowered.com/news/app/2067830/view/3783646775771526972">
+            
+            
+            <area shape="rect" coords="0, 636, 700, 829"
+            href="https://store.steampowered.com/news/app/2067830/view/3783646775771489260">
+        
+        </map>
+    </body>
+    
+</html>
+
+<script>
+// window.onload = function(){
+//     $.ajax("https://store.steampowered.com/news/app/1277530/view/3748743244110883229").done(function(data) {
+//    $("#divId").html(data);
+// });
+// } cors 문제로 불가
+  
+
+</script>
+<style>
+.myarea{
+    pointer-events: none;
+}
+</style>
