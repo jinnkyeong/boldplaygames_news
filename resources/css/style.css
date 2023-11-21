@@ -1,6 +1,6 @@
 :root {
     /* size */
-    --font-size-md: 0.75vw;
+    --font-size-md: 2vw;
 
     /* color */
     --color-grey-light: #A9A9A9;
@@ -9,6 +9,10 @@
     --color-mint: #45FFCA;
     --color-hover: #97FEED;
 }
+
+body{
+    overflow: hidden;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -16,12 +20,15 @@
 
 .box{
 /*  1920px 해상도에서 700px */
-    width: 36.4vw;
+    /* width: 36.4vw; */
+    width: 100vw;
     position: relative;
 }
 
 .bgImage{
-    width: 36.4vw;
+    /* width: 36.4vw; */
+    width: 100vw;
+
 }
 
 .sub-box{
@@ -74,33 +81,43 @@
 
 /* 컨테이너 hover 효과 */
 .overlay{
-    width: 36.1vw;
-    height: 10vw;
+    width: 98.9vw;
+    height: 27vw;
     position: absolute; /* Stay in place */
     z-index: 1; /* Stay on top */
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
 }
 .overlay_test{
-    top: 12.9vw;
+    top: 35.5vw;
 }
 .overlay_ranking{
-    top: 23vw;
+    top: 63vw;
 }
 .overlay_event{
-    top: 33.2vw;
+    top: 90.5vw;
 }
 .hover{
-    border: solid var(--color-hover) 0.2vw;
+    border: solid var(--color-hover) 0.6vw;
 }
 
 
 
 
 /* 해상도별 크기 조정 */
-@media screen and (min-width: 3000px){
+/* 뷰포트가 50% 미만의 영역을 차지함 */
+/* 해상도 3000x? 이상 */
+/* @media screen and (min-width: 1500px){
     
-} 
-@media screen and (max-width: px) and (min-width: 2999px){
-    
+}  */
+/* 해상도 1600x? 이상 */
+/* @media screen and (min-width: 800px) and (max-width: 1499px){
+  
+}  */
+/* 해상도 1600x? 미만 - 하한선 : 1200x? */
+@media screen and (max-width: 799px){
+    .box{
+        min-width: 600px;
+        max-width: 700px;
+    }
 } 
