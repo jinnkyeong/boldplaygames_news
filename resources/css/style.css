@@ -9,13 +9,10 @@
     --color-mint: #45FFCA;
     --color-hover: #97FEED;
 }
-
-
 .container{
     display: flex;
     flex-direction: column;
 }
-
 
 .box{
 /*  1920px 해상도에서 700px */
@@ -41,16 +38,20 @@
 .sub-item{
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-s100%art; */
     margin-bottom: 1vw;
 }
 .sub-label{
-    flex: 33%;
-    /* flex: 25%; */
+    flex: 25%;
 }
 .sub-context{
-    flex: 67%;
-    /* flex: 75%; */
+    flex: 75%;
+}
+/* 행 요소 간 비율 조정 - RU */
+.sub-label-RU{
+    flex: 36%;
+}
+.sub-context-RU{
+    flex: 64%;
 }
 .sub-context-child{
     
@@ -93,6 +94,13 @@
     border: solid var(--color-hover) 0.2vw;
 }
 
-/* @media screen (){
+
+
+
+/* 해상도별 크기 조정 */
+@media screen and (min-width: 3000px){
     
-} */
+} 
+@media screen and (max-width: px) and (min-width: 2999px){
+    
+} 

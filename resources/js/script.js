@@ -49,4 +49,12 @@ con_event.addEventListener("mouseout", function(){
     }
 }, false);
 
-
+con_test.addEventListener("click",function(){
+    window.open('https://store.steampowered.com/news/app/1277530/view/3748743244110883229');
+}, false);
+con_ranking.addEventListener("click",function(){
+    window.open('https://store.steampowered.com/news/app/2067830/view/3783646775771526972');
+}, false);
+con_event.addEventListener("click",function(){
+    window.open('https://store.steampowered.com/news/app/2067830/view/3783646775771489260');
+}, false);
