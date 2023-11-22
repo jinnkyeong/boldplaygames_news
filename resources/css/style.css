@@ -20,15 +20,12 @@ body{
 
 .box{
 /*  1920px 해상도에서 700px */
-    /* width: 36.4vw; */
     width: 100vw;
     position: relative;
 }
 
 .bgImage{
-    /* width: 36.4vw; */
     width: 100vw;
-
 }
 
 .sub-box{
@@ -115,9 +112,30 @@ body{
   
 }  */
 /* 해상도 1600x? 미만 - 하한선 : 1200x? */
-@media screen and (max-width: 799px){
+/* @media screen and (max-width: 799px){
     .box{
         min-width: 600px;
         max-width: 700px;
     }
-} 
+    .bgImage{
+        min-width: 600px;
+        max-width: 700px;
+    }
+    body{
+        background-color: transparent;
+    }
+}  */
+/* 해상도 1600x? 이상 1920x 미만 - 하한선 : 1200x? */
+/* @media screen and (min-width: 799px) and (max-width: px){
+    .box{
+        min-width: 600px;
+        max-width: 700px;
+    }
+    .bgImage{
+        min-width: 600px;
+        max-width: 700px;
+    }
+    body{
+        background-color: transparent;
+    }
+}  */

@@ -12,7 +12,6 @@ const con_event = document.querySelector(".con_event");
 const ovl_test = document.querySelector(".overlay_test");
 const ovl_ranking = document.querySelector(".overlay_ranking");
 const ovl_event = document.querySelector(".overlay_event");
-const back_btn = document.querySelector(".btn-back");
 
 con_test.addEventListener("mouseover", function(){
     if(!ovl_test.classList.contains('hover')){
@@ -50,6 +49,7 @@ con_event.addEventListener("mouseout", function(){
     }
 }, false);
 
+// Steam으로 이동
 con_test.addEventListener("click",function(){
     window.location.href = 'https://store.steampowered.com/news/app/1277530/view/3748743244110883229'; 
 }, false);
@@ -59,3 +59,5 @@ con_ranking.addEventListener("click",function(){
 con_event.addEventListener("click",function(){
     window.location.href = 'https://store.steampowered.com/news/app/2067830/view/3783646775771489260'
 }, false);
+
+
