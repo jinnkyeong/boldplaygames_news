@@ -4,8 +4,8 @@
 
     /* color */
     --color-grey-light: #A9A9A9;
-    --color-grey-dark: #666666;
-    --color-orange: #ff9600;
+    --color-grey-dark: #7D7C7C;
+    --color-orange: #FF9130;
     --color-mint: #45FFCA;
     --color-hover: #97FEED;
 }
@@ -37,9 +37,8 @@ body{
     display: flex;
     flex-direction: column;
     font-size: var(--font-size-md);
-    /* font-family: 'Segoe UI', 'Malgun Gothic', 'New Gulim', Tahoma, Geneva, Verdana, sans-serif; */
-    /* font-family: 'Jost','Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Segoe UI', 'Malgun Gothic', 'New Gulim', 'Microsoft YaHei UI', 'Microsoft JhengHei UI', 'Yu Gothic UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Jost','Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .sub-item{
     display: flex;
